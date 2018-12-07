@@ -7,3 +7,4 @@ CSU CSC400 Algorithms &amp; Data Structures Challenges and Projects - Java
 * ArrayBag
 * Exception handling
 * LinkedBag
+* Stacks
