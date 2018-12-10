@@ -44,5 +44,17 @@ public class BalanceChecker {
 	// Returns true if given characters, open and close, form pair of parentheses, brackets, or braces
 	private static boolean isPaired(char open, char close) {
 		return (open == '(' && close == ')') || (open == '[' && close == ']') || (open == '{' && close == '}');		
-	}		
+	}
+	
+	public static void main (String[] args) {
+		 
+		String expression = "a {b [c (d + e)/2 - f] + 1}";
+		boolean isBalanced = BalanceChecker.checkBalance(expression);
+		if (isBalanced) {
+			System.out.println(expression + " is balanced");
+		}
+		else {
+			System.out.println(expression + " is not balanced");
+		}
+	}
 }
