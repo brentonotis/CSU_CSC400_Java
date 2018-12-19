@@ -9,3 +9,6 @@ CSU CSC400 Algorithms &amp; Data Structures Challenges and Projects - Java
 * LinkedBag
 * Stacks
 * Recursion
+* Generic types
+* Upper bounding
+* Wildcards
