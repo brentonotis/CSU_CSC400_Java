@@ -10,9 +10,9 @@ import java.util.Arrays;
 
 public class MergeSort {
 	
-	/**Recursively divides array into sub-arrays and sorts
-	 * @param mainArray array being evaluated
-	 * @param arrayLength length of array */
+    /**Recursively divides array into sub-arrays and sorts
+     * @param mainArray array being evaluated
+     * @param arrayLength length of array */
     public static void mergeSort(int[] mainArray, int arrayLength) {
     	// checks to see if array has more than one element
     	// otherwise doesn't need to divide/sort/merge - so returns
@@ -39,11 +39,11 @@ public class MergeSort {
     }
     
     /**Compares elements of sub-arrays and places smallest element into main array, then merges
-	 * @param fullArray main array being evaluated
-	 * @param leftArray first sub-array
-	 * @param rightArray second sub-array
-	 * @param leftLength length of first sub-array
-	 * @param rightLength length of second sub-array */
+     * @param fullArray main array being evaluated
+     * @param leftArray first sub-array
+     * @param rightArray second sub-array
+     * @param leftLength length of first sub-array
+     * @param rightLength length of second sub-array */
     public static void merge(int[] fullArray, int[] leftArray, int[] rightArray, int leftLength, int rightLength) {
     	// initialize counter indices to 0
         int i = 0; 
