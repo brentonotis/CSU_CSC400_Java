@@ -52,8 +52,8 @@ public class MergeSort {
         // sorting operation
         // while both sub-arrays have at least one element
         while (i < leftLength && j < rightLength) {
-        	// if left array index less than right array index, put index in full/main array
-        	// increment counter index per operation
+            // if left array index less than right array index, put index in full/main array
+            // increment counter index per operation
             if (leftArray[i] <= rightArray[j])
                 fullArray[k++] = leftArray[i++];
             // otherwise put right array index into full/main array
