@@ -55,10 +55,11 @@ public class Person implements Comparable<Person> {
 		
 		System.out.println("Before sorting: " + people);
 			
-		Arrays.sort(people.toArray());
+		Object[] array = people.toArray();
 		
-		System.out.println(people);
-		
+		for (int i = 0; i < array.length; i++) {
+			System.out.println(array[i]);
+		}
 		
 	}
 		
